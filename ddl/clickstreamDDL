@@ -1,0 +1,9 @@
+`id` INT NOT NULL,
+`event_timestamp` TIMESTAMP NOT NULL,
+`device_type` STRING,
+`session_id` STRING NOT NULL,
+`visitor_id` STRING NOT NULL,
+`item_id` STRING NOT NULL,
+`redirection_source` STRING,
+`is_add_to_cart` BOOLEAN,
+`is_order_placed` BOOLEAN
