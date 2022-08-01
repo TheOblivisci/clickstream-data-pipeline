@@ -43,7 +43,7 @@ object FileCleanser {
 
     }
   }
-  
+
   def nullRemovalItemData(itemData:DataFrame,log: Logger): DataFrame = {
     Try{
       val value = exceptions.Exception.validation(itemData)
